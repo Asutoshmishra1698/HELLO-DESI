@@ -1,0 +1,38 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+img{
+    width: 100%;
+}
+  .home-slider-right {
+    left: 70%;
+    top: 50%;
+  }
+
+.newarrivalproduct{
+    text-align: right;
+    left: 50%;
+    top: 40%;
+    padding: 60px;
+    color: rgb(4, 161, 213);
+}
+.space{
+ margin-top: 70px;
+}
+.space1{
+  margin-top: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    .newarrivalproduct{
+        text-align: right;
+        left: 5%;
+        top: 1%;
+        padding: 15px;
+        color: rgb(4, 161, 213);
+    }
+    .space{
+      margin-top: 40px;
+     }
+}
