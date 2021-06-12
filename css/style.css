@@ -5,43 +5,76 @@ body, html {
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
-  }
-  button{
-    background-color:rgb(4, 161, 213);
-    color:white;
-    padding: 5px;
-  }
+}
+
+button{
+  background-color:rgb(4, 161, 213);
+  color:white;
+  padding: 10px;
+  border: none;
+  font-size: 20px;;
+}
+
 img{
     width: 100%;
 }
-  .home-slider-right {
+
+.home-slider-right {
     left: 70%;
     top: 50%;
-  }
+}
+
+.home-slider-right p{
+  font-size: 30px;
+}
 
 .newarrivalproduct{
-    text-align: right;
-    left: 50%;
-    top: 40%;
-    padding: 60px;
-    color: rgb(4, 161, 213);
+  text-align: right;
+  left: 50%;
+  top: 40%;
+  padding: 60px;
+  color:rgb(255, 230, 0);
 }
+
 .space{
  margin-top: 70px;
 }
+
 .space1{
   margin-top: 70px;
 }
 
+.card{
+  padding: 20px;
+  border-radius: 30px;
+}
+
+
 @media only screen and (max-width: 600px) {
-    .newarrivalproduct{
-        text-align: right;
-        left: 5%;
-        top: 1%;
-        padding: 15px;
-        color: rgb(4, 161, 213);
-    }
-    .space{
-      margin-top: 40px;
-     }
+  .newarrivalproduct{
+    text-align: right;
+    left: 5%;
+    top: 1%;
+    padding: 15px;
+    color:rgb(255, 230, 0);
+  }
+
+  .space{
+    margin-top: 40px;
+  }
+
+  button{
+    font-size: 15px;;
+  }
+
+  .home-slider-right p{
+    font-size: 20px;
+    color: blue;
+  }
+  
+  p{
+    font-size: 17px;
+  }
+
+
 }
