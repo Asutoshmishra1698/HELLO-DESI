@@ -1,80 +1,174 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    font-family: 'Calibri';
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
+  height: 100%;
+  margin: 0;
+  font-family: 'Calibri';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
 }
 
 button{
-  background-color:rgb(4, 161, 213);
-  color:white;
-  padding: 10px;
-  border: none;
-  font-size: 20px;;
+background-color:rgb(4, 161, 213);
+color:white;
+padding: 10px;
+border: none;
+font-size: 20px;;
+}
+button:hover{
+background-color:rgb(33, 39, 41);
+color:rgb(255, 255, 255);
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+.navbar-light .navbar-toggler{
+background:white;
+}
+a:hover {
+cursor: pointer;
 }
 
 img{
-    width: 100%;
+  width: 100%;
 }
 
 .home-slider-right {
-    left: 70%;
-    top: 50%;
+  left: 70%;
+  top: 50%;
 }
 
 .home-slider-right p{
-  font-size: 30px;
+font-size: 30px;
 }
 
 .newarrivalproduct{
-  text-align: right;
-  left: 50%;
-  top: 40%;
-  padding: 60px;
-  color:rgb(255, 230, 0);
+text-align: right;
+left: 50%;
+top: 40%;
+padding: 60px;
+color:#ffc107;
 }
 
 .space{
- margin-top: 70px;
+margin-top: 70px;
 }
 
 .space1{
-  margin-top: 70px;
+margin-top: 70px;
 }
 
 .card{
-  padding: 20px;
-  border-radius: 30px;
+padding: 20px;
+border-radius: 30px;
+}
+
+#demo {
+background: linear-gradient(112deg, #ffffff 50%, antiquewhite 50%);
+margin: auto
+}
+
+.carousel-caption {
+position: initial;
+z-index: 10;
+padding: rem 8rem;
+color: rgba(78, 77, 77, 0.856);
+text-align: center;
+font-size: 1.2rem;
+font-style: italic;
+font-weight: bold;
+line-height: 2rem
+}
+
+.carousel-caption img {
+width: 6rem;
+border-radius: 5rem;
+margin-top: 2rem
+}
+
+#image-caption {
+font-style: normal;
+font-size: 1rem;
+margin-top: 0.5rem
+}
+
+.carousel-control-prev {
+justify-content: flex-start;
+}
+
+.carousel-control-next {
+justify-content: flex-end;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+transition: none;
+opacity: unset
+}
+
+@media(max-width:767px) {
+  
+  .carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 1rem 2rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 0.7rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.5rem
+}
+.carousel-caption img {
+    width: 4rem;
+    border-radius: 4rem;
+    margin-top: 1rem
+}
+#image-caption {
+    font-style: normal;
+    font-size: 0.6rem;
+    margin-top: 0.5rem
+}
+
+ i {
+    padding: 0.8rem
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+.newarrivalproduct{
+  text-align: right;
+  left: 5%;
+  top: 1%;
+  padding: 15px;
+  color:#ffc107;
+}
+.space{
+  margin-top: 40px;
+}
+
+button{
+  font-size: 15px;;
+}
+
+.home-slider-right p{
+  font-size: 20px;
+  color: blue;
+}
+
+p{
+  font-size: 17px;
+}
 }
 
 
-@media only screen and (max-width: 600px) {
-  .newarrivalproduct{
-    text-align: right;
-    left: 5%;
-    top: 1%;
-    padding: 15px;
-    color:rgb(255, 230, 0);
-  }
-
-  .space{
-    margin-top: 40px;
-  }
-
-  button{
-    font-size: 15px;;
-  }
-
-  .home-slider-right p{
-    font-size: 20px;
-    color: blue;
-  }
-  
-  p{
-    font-size: 17px;
-  }
 
 
+
+/* collection page CSS*/
+
+.collection p{
+  border-bottom: 3px solid #04a1d5;
+  border-left: 3px solid #04a1d5;
+  border-right: 3px solid #04a1d5;
 }
