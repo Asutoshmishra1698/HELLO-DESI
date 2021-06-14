@@ -8,10 +8,10 @@ body, html {
 }
 
 button{
-background-color:rgb(4, 161, 213);
-color:white;
+background-color:transparent;
+border: 2px solid #04a1d5;
+color:#04a1d5;
 padding: 10px;
-border: none;
 font-size: 20px;;
 }
 button:hover{
@@ -20,6 +20,7 @@ color:rgb(255, 255, 255);
 padding: 10px;
 border: none;
 cursor: pointer;
+border: 2px solid #04a1d5;
 }
 .navbar-light .navbar-toggler{
 background:white;
